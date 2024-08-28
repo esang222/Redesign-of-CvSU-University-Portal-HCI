@@ -53,3 +53,38 @@
  ul.dropdown-menu{
   background-color:#D0F2C4;
 }
+
+.banner{
+    max-width: 1000px;
+}
+
+.banner img{
+        width: 100vw;
+        display: block;
+        /* max-width: 100%; */
+        height: 40vh;
+}
+
+#cvsu, #QA, #QM{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+}
+
+#cvsu{
+    top: 35%;
+    font-size: 60px;
+    font-family:"Adamina",serif;
+}
+#QA{
+    top: 45%;
+    color: white;
+    font-size: 30px;
+}
+
+#QM{
+    top: 52%;
+    font-size: 22px;
+}
