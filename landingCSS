@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar{
+   background-color: #418B27;
+   padding:10px;
+}
+
+.container-fluid{
+  display:flex;
+  align-items:center;
+  width:100%;
+}
+
+.container-logo{
+  display:flex;
+  align-items:center;
+}
+
+.container-logo h3{
+   color:#ffff;
+   font-family:"Adamina",serif;
+   margin-left:10px;
+}
+
+.container-logo img{
+  height:70px;
+  width:auto;
+}
+
+.dropdowns{
+  background-color: #ffff;
+  flex-grow:1;
+  list-style-type:none;
+  margin-top:10px;
+  padding:10px;
+}
+
+.dropdowns .nav-item{
+  flex:1;
+  text-align:center;
+  font-weight:bold;
+}
+
+.dropdowns .nav-link{
+  color:black;
+  font-family:"Inter"; 
+}
+.nav-link{
+  margin-left:5px;
+}
+
+ ul.dropdown-menu{
+  background-color:#D0F2C4;
+}
